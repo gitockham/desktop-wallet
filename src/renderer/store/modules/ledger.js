@@ -119,7 +119,7 @@ export default {
     },
 
     /**
-     * Initialise ledger service with ark-ledger library.
+     * Initialise ledger service with ock-ledger library.
      * @param {Number} slip44
      */
     async init ({ dispatch }, slip44) {

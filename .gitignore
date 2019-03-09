@@ -1,5 +1,6 @@
 !.gitkeep
 
+.vs
 .DS_Store
 thumbs.db
 
@@ -13,6 +14,7 @@ build/target/*
 !build/target/.gitkeep
 
 node_modules/
+src/renderer/assets.rar
 
 npm-debug.log
 npm-debug.log.*

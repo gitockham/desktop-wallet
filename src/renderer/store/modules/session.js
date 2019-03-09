@@ -151,12 +151,12 @@ export default {
       state.avatar = 'pages/new-profile-avatar.svg'
       state.background = null
       state.currency = MARKET.defaultCurrency
-      state.timeFormat = 'Default'
+      state.timeFormat = '24h'
       state.isMarketChartEnabled = true
       state.language = I18N.defaultLocale
-      state.bip39Language = 'english'
+      state.bip39Language = 'french'
       state.name = null
-      state.theme = 'light'
+      state.theme = 'dark'
       state.walletLayout = 'grid'
       state.walletSortParams = { field: 'balance', type: 'desc' }
       state.contactSortParams = { field: 'name', type: 'asc' }

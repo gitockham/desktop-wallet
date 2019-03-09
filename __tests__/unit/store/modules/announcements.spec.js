@@ -52,26 +52,26 @@ describe('the announcementStore getters', () => {
         [
           {
             guid: '1234ABCD',
-            title: 'Ark Arrives At Moon',
-            summary: 'The value of ARK reached 3 Bitcoin today as all hodlers bought lambos for their pets.',
-            url: 'https://fakenews.com/ark-lunar-trip'
+            title: 'OCKHAM Arrives At Moon',
+            summary: 'The value of OCKHAM reached 3 Bitcoin today as all hodlers bought lambos for their pets.',
+            url: 'https://fakenews.com/ock-lunar-trip'
           },
           {
             guid: '1FSAFEWA',
             title: 'Second News Article',
-            summary: 'The value of ARK reached 6 Bitcoin today as all hodlers bought lambos for their pets.',
+            summary: 'The value of OCKHAM reached 6 Bitcoin today as all hodlers bought lambos for their pets.',
             url: 'https://fakenews.com/ark-lunar-trip'
           },
           {
             guid: '3123321',
-            title: 'Moon arrives at ark',
-            summary: 'The value of ARK reached 213 Bitcoin today as all hodlers bought lambos for their pets.',
+            title: 'Moon arrives at Ockham',
+            summary: 'The value of OCKHAM reached 213 Bitcoin today as all hodlers bought lambos for their pets.',
             url: 'https://fakenews.com/ark-lunar-trip'
           },
           {
             guid: 'LDKJASD',
             title: 'Fourth News Article',
-            summary: 'The value of ARK reached 431 Bitcoin today as all hodlers bought lambos for their pets.',
+            summary: 'The value of OCKHAM reached 431 Bitcoin today as all hodlers bought lambos for their pets.',
             url: 'https://fakenews.com/ark-lunar-trip'
           }
         ]
@@ -90,27 +90,27 @@ describe('the announcementStore getters', () => {
         [
           {
             guid: '1234ABCD',
-            title: 'Ark Arrives At Moon',
-            summary: 'The value of ARK reached 3 Bitcoin today as all hodlers bought lambos for their pets.',
-            url: 'https://fakenews.com/ark-lunar-trip'
+            title: 'Ockham Arrives At Moon',
+            summary: 'The value of OCKHAM reached 3 Bitcoin today as all hodlers bought lambos for their pets.',
+            url: 'https://fakenews.com/ock-lunar-trip'
           },
           {
             guid: '1FSAFEWA',
             title: 'Second News Article',
-            summary: 'The value of ARK reached 6 Bitcoin today as all hodlers bought lambos for their pets.',
-            url: 'https://fakenews.com/ark-lunar-trip'
+            summary: 'The value of OCKHAM reached 6 Bitcoin today as all hodlers bought lambos for their pets.',
+            url: 'https://fakenews.com/ock-lunar-trip'
           },
           {
             guid: '3123321',
-            title: 'Moon arrives at ark',
-            summary: 'The value of ARK reached 213 Bitcoin today as all hodlers bought lambos for their pets.',
-            url: 'https://fakenews.com/ark-lunar-trip'
+            title: 'Moon arrives at Ockham',
+            summary: 'The value of OCKHAM reached 213 Bitcoin today as all hodlers bought lambos for their pets.',
+            url: 'https://fakenews.com/ock-lunar-trip'
           },
           {
             guid: 'LDKJASD',
             title: 'Fourth News Article',
-            summary: 'The value of ARK reached 431 Bitcoin today as all hodlers bought lambos for their pets.',
-            url: 'https://fakenews.com/ark-lunar-trip'
+            summary: 'The value of OCKHAM reached 431 Bitcoin today as all hodlers bought lambos for their pets.',
+            url: 'https://fakenews.com/ock-lunar-trip'
           }
         ]
     }

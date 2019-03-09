@@ -1,25 +1,26 @@
 {
   "private": true,
-  "name": "ark-desktop-wallet",
-  "version": "2.2.1",
+  "name": "ockham-desktop-wallet",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArkEcosystem/desktop-wallet.git"
+    "url": "git+https://github.com/gitockham/ock-desktop-wallet.git"
   },
-  "author": "ArkEcosystem <info@ark.io>",
+  "author": "Ockham Consulting Institute <contact@ockham.consulting>",
   "contributors": [
     "Alex Barnsley <alex@ark.io>",
     "ItsANameToo <itsanametoo@protonmail.com>",
     "Juan A. Martín <juan@ark.io>",
     "Lúcio Rubens <lucio@ark.io>",
-    "Mario Vega <mario@ark.io>"
+    "Mario Vega <mario@ark.io>",
+    "Luc Talarico <ceo@ockham.consulting>"
   ],
-  "description": "Ark Ecosystem Desktop Wallet",
+  "description": "Ockham Consulting Desktop Wallet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ArkEcosystem/desktop-wallet/issues"
+    "url": "https://github.com/gitockham/ock-desktop-wallet/issues"
   },
-  "homepage": "https://github.com/ArkEcosystem/desktop-wallet#readme",
+  "homepage": "https://github.com/gitockham/ock-desktop-wallet#readme",
   "main": "./dist/electron/main.js",
   "scripts": {
     "build": "node .electron-vue/build.js && electron-builder",
@@ -29,12 +30,12 @@
     "build:linux": "node .electron-vue/build.js && electron-builder --linux",
     "build:dir": "node .electron-vue/build.js && electron-builder --dir",
     "build:clean": "cross-env BUILD_TARGET=clean node .electron-vue/build.js",
-    "build:web": "cross-env BUILD_TARGET=web node .electron-vue/build.js",
+    "build:web": "cross-env BUILD_TARGET=web node --max-old-space-size=4096 .electron-vue/build.js",
     "depcheck": "depcheck ./ --ignores @babel/runtime,babel-core,babel-eslint,babel-register,devtron,eslint-config-standard,eslint-plugin-vue,eslint-plugin-import,eslint-plugin-node,eslint-plugin-promise,eslint-plugin-standard,husky,vue-style-loader,autoprefixer,@vue/test-utils,babel-jest,jest-serializer-vue,jest-vue-preprocessor,jest-extended,@tests/unit,animate.css,lint-staged,purgecss,v-tooltip,@xkeshi/vue-qrcode,file-loader,webpack-cli,@config/networks,codecov,intl,tempy",
     "dev": "cross-env ENABLE_SCREENSHOT_PROTECTION=false node .electron-vue/dev-runner.js",
     "i18n": "vue-i18n-extract -s 'src/**/*.?(js|vue)' -l",
     "i18n:all": "vue-i18n-extract -s 'src/**/*.?(js|vue)' -l 'src/renderer/i18n/locales/*.js'",
-    "i18n:en-US": "vue-i18n-extract -s 'src/**/*.?(js|vue)' -l 'src/renderer/i18n/locales/en-US.js'",
+    "i18n:fr-FR": "vue-i18n-extract -s 'src/**/*.?(js|vue)' -l 'src/renderer/i18n/locales/fr-FR.js'",
     "lint": "eslint --ext .js,.vue -f ./node_modules/eslint-friendly-formatter src __tests__",
     "lint:fix": "eslint --ext .js,.vue -f ./node_modules/eslint-friendly-formatter --fix src __tests__",
     "pack": "npm run pack:main && npm run pack:renderer",
@@ -164,14 +165,14 @@
     "webpack-hot-middleware": "^2.24.3"
   },
   "build": {
-    "productName": "Ark Desktop Wallet",
-    "appId": "io.ark.desktop-wallet",
+    "productName": "Ockham Desktop Wallet",
+    "appId": "io.ockham.desktop-wallet",
     "compression": "maximum",
     "artifactName": "${name}-${os}-${arch}-${version}.${ext}",
     "protocols": {
-      "name": "Ark URI scheme",
+      "name": "Ockham URI scheme",
       "schemes": [
-        "ark"
+        "ock"
       ],
       "role": "Viewer"
     },
@@ -191,7 +192,7 @@
     },
     "linux": {
       "category": "Utility",
-      "executableName": "ark-desktop-wallet",
+      "executableName": "Ockham Desktop Wallet",
       "icon": "build/icons",
       "target": [
         "AppImage",
@@ -199,7 +200,7 @@
         "tar.gz"
       ],
       "desktop": {
-        "MimeType": "x-scheme-handler/ark;"
+        "MimeType": "x-scheme-handler/ock;"
       }
     },
     "deb": {

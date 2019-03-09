@@ -1,0 +1,115 @@
+{
+  "id": "mlc.devnet",
+  "name": "MLC Devnet",
+  "title": "MLC Devnet",
+  "server": "http://192.168.0.31:4100",
+  "description": "The MLC Devnet is only used for R&D by engineers.",
+  "imagePath": "networks/mlc.devnet.svg",
+  "apiVersion": 2,
+  "slip44": "1",
+  "market": {
+    "enabled": false,
+    "ticker": null
+  },
+  "feeStatistics": [
+    {
+      "type": 0,
+      "fees": {
+        "avgFee": 10000000,
+        "maxFee": 10000000,
+        "minFee": 10000000
+      }
+    },
+    {
+      "type": 1,
+      "fees": {
+        "avgFee": 500000000,
+        "maxFee": 500000000,
+        "minFee": 500000000
+      }
+    },
+    {
+      "type": 2,
+      "fees": {
+        "avgFee": 2500000000,
+        "maxFee": 2500000000,
+        "minFee": 2500000000
+      }
+    },
+    {
+      "type": 3,
+      "fees": {
+        "avgFee": 100000000,
+        "maxFee": 100000000,
+        "minFee": 100000000
+      }
+    }
+  ],
+  "constants": {
+    "activeDelegates": 51,
+    "epoch": "2019-03-07T13:00:00.000Z"
+  },
+  "vendorField": {
+    "maxLength": 64
+  },
+  "nethash": "1fdcde7795c75d2ab47152a267d53374289e0bded286202b0388da616585d7a9",
+  "explorer": "http://192.168.0.31:4200",
+  "token": "DMLC",
+  "subunit": "dmlctoshi",
+  "symbol": "D☮",
+  "fractionDigits": 8,
+  "version": 30,
+  "wif": 170,
+  "knownWallets": {
+    "MVQx21nLVjdFb6vk52qbpFMQ1P8NcJKJeW": "Compte initial",
+    "MUEgCjAr1MH6zASorxdtdp6EJnVmxBG1nC": "Forging Account #01",
+    "M9UjoxqBZgMxVESnP3j4mYPdgNKpd8fEJe": "Forging Account #02",
+    "MEb8oDYFrqfKHb9vY5qmvzqeVUNJ99XZve": "Forging Account #03",
+    "MRUF7xCmeN75uHxmb94SvfyZVo7SXXvnzN": "Forging Account #04",
+    "MNHMiip6Qi56ta2ibnWiwirkLRmYGDP946": "Forging Account #05",
+    "MUt6i9bwMLkaCoPo3AC5UHpAtQYgVxwJMc": "Forging Account #06",
+    "MUiSGZUF7kJezfq8xYLV8yemUn14zwU77C": "Forging Account #07",
+    "MLMF5WpXHuAddgoHqpbrKshVJbjWVK3uza": "Forging Account #08",
+    "MMQRTCbEhqcnfYEvcvmy2M5v1MoAqCPD4K": "Forging Account #09",
+    "MQgwFvRhx6sLjpsMxsgnLMMQbgkpEQuKbk": "Forging Account #10",
+    "MV1R1tTGT3S38c51jtZMLiN8kMAe2xUvCU": "Forging Account #11",
+    "MGTwEuuHAWpy2vYtF1Zs7YzmsEmvpDSqCx": "Forging Account #12",
+    "MS46AY8Y7jiEn5snK9e8sY6M9nUr6yL29V": "Forging Account #13",
+    "MLT7zMnJQSZcD7YxKz73wJ9Bq8BdsvDMwK": "Forging Account #14",
+    "MR4LgyhErxcDfft3eNGYkKELMiJqBemom8": "Forging Account #15",
+    "MD1vcfbpHVfnLsToW2mTMgHLwLMAdavN9V": "Forging Account #16",
+    "MRaiyofEE6MRNPauBK1BeCZW9KsMk8XYCy": "Forging Account #17",
+    "MKPTLaPPeQNFxUWyfXmaxkcVCbnjEZDnRy": "Forging Account #18",
+    "MESY1cVwfRukN2ngLyjWgVumJfDX3ywEmV": "Forging Account #19",
+    "M8QMQLybvLNQwSwFQs6n5WojVh4x6N2NSj": "Forging Account #20",
+    "MVjVHnPb5VnymWMyp7TWpMDL1AYqBq6Ff1": "Forging Account #21",
+    "MEZHhYrxvXn16b5irufiTtqLDFziRFJMPn": "Forging Account #22",
+    "M81HzLJj631tUkyNBwyCcBkobX4iVtNUmS": "Forging Account #23",
+    "MVNu2eYuqBDTf4d8xYup82wRwCPiWVggD4": "Forging Account #24",
+    "MV9L6t7vmSRryU7hyeHg8f7LMECdPW2NiV": "Forging Account #25",
+    "MUU4wuVm3KCn3UmHvsNz38anprPZUSoTsU": "Forging Account #26",
+    "MNPcwwV4MTM7mJmpYSdw1gQrp5Js9WR9b1": "Forging Account #27",
+    "MG9fYxjdDJzZxgHwXnEjqGQ9iChM2iuwEr": "Forging Account #28",
+    "MNjoSRVfBKybLsaB4Wc5Fxo1VgUDWE3sKm": "Forging Account #29",
+    "MR8Cv9Kc4CMoKMharyuk5wFSpVp62nK2Te": "Forging Account #30",
+    "M8vm8ihA1Zha5eVdFQXeQJTwyC3ARxZSyf": "Forging Account #31",
+    "MVedaNwAvj8VhTtKNVjtoUYeYpkPQW9Yj9": "Forging Account #32",
+    "MLtGuzQdkt6UH4J3NpjzNcGiXRr5u1JNcc": "Forging Account #33",
+    "MVX2RECybdTuRHnu2sHXhj8LZ8DCECu4UT": "Forging Account #34",
+    "M9dvep8CsLQNQW6QPeV5DX2HDMMakk8Kfc": "Forging Account #35",
+    "MWMCJpRuqBKvXtezvv1naxTsocbtMDUays": "Forging Account #36",
+    "MCapSdJE2TeBPX5f5LYp9U7JF8ZdhsvcHB": "Forging Account #37",
+    "MLNeZKwzi7AFSSC22h3tyrXBnFyUnjYNCn": "Forging Account #38",
+    "MUvFc8ZtMLg7gRhPbWRVfTUo41wVp99TUW": "Forging Account #39",
+    "MFi31UubzhdcarhExvcMkFpwXz8oKjspke": "Forging Account #40",
+    "MPFzipLG3amAnKciFuFq9n2qUaUafeLAqZ": "Forging Account #41",
+    "MMuELLdMzknyCGe95JjWxibSEoFXcLARUQ": "Forging Account #42",
+    "MRZxUDS3awn6Pe3aAmL5ASbnJcNXsCNmi7": "Forging Account #43",
+    "MVTBXAHyeotXGcyZGWcFuCcg1fpXezkqWa": "Forging Account #44",
+    "M9Dh8EAka8XfoXr7ecFjRdCNz3zuJp6bWT": "Forging Account #45",
+    "MBrhEVhxQSRwVjyULkvWWNHscwDtvBVKcU": "Forging Account #46",
+    "M8SbAzBRW8xjVcUFV1Fx27MMzuGMr6F1Gb": "Forging Account #47",
+    "MFjdnUnHzBdnFPTsVmTAQUNXzfJ5LgEeLN": "Forging Account #48",
+    "MKmoNjHjUSBdauSBJq6v6Nnjr3HKS4gfWZ": "Forging Account #49"
+  }
+}

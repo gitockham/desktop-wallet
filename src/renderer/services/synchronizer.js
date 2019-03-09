@@ -14,7 +14,7 @@ import { announcements, delegates, fees, ledger, market, peer, wallets } from '.
  */
 export default class Synchronizer {
   get intervals () {
-    // ARK block production time
+    // OCKHAM block production time
     const block = 8000
 
     const intervals = {

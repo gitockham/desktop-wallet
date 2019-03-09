@@ -1,0 +1,64 @@
+{
+  "id": "mlc.testnet",
+  "name": "MLC Testnet",
+  "title": "MLC Testnet",
+  "server": "http://192.168.0.31:4100",
+  "description": "The MLC Testnet is only used for R&D by engineers.",
+  "imagePath": "networks/mlc.testnet.svg",
+  "apiVersion": 2,
+  "slip44": "1",
+  "market": {
+    "enabled": false,
+    "ticker": null
+  },
+  "feeStatistics": [
+    {
+      "type": 0,
+      "fees": {
+        "avgFee": 10000000,
+        "maxFee": 10000000,
+        "minFee": 10000000
+      }
+    },
+    {
+      "type": 1,
+      "fees": {
+        "avgFee": 500000000,
+        "maxFee": 500000000,
+        "minFee": 500000000
+      }
+    },
+    {
+      "type": 2,
+      "fees": {
+        "avgFee": 2500000000,
+        "maxFee": 2500000000,
+        "minFee": 2500000000
+      }
+    },
+    {
+      "type": 3,
+      "fees": {
+        "avgFee": 100000000,
+        "maxFee": 100000000,
+        "minFee": 100000000
+      }
+    }
+  ],
+  "constants": {
+    "activeDelegates": 51,
+    "epoch": "2019-03-07T13:00:00.000Z"
+  },
+  "vendorField": {
+    "maxLength": 64
+  },
+  "nethash": "1fdcde7795c75d2ab47152a267d53374289e0bded286202b0388da616585d7a9",
+  "explorer": "http://192.168.0.31:4200",
+  "token": "TMLC",
+  "subunit": "tmlctoshi",
+  "symbol": "T☮",
+  "fractionDigits": 8,
+  "version": 30,
+  "wif": 170,
+  "knownWallets": {}
+}

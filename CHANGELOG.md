@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
+## Version OCKHAM Desktop Wallet 0.0.1 (2019-03-08)
+
+Addition of the French translation 🐛
+Set French as default languages 🐛
+Set Euro as default Currency 🐛
+Addition of OCKHAM Networks (TODO: add peers to networks) 🐛
+Change logo and pictures 🐛
+
 ## Version 2.2.1 (2019-01-30)
 
 Broadcasting to multiple peers fixed and improved usability for custom networks 🐛
@@ -53,4 +61,4 @@ Broadcasting to multiple peers fixed and improved usability for custom networks 
 
 ## Previous versions
 
-See [GitHub releases](https://github.com/ArkEcosystem/desktop-wallet/releases).
+See [GitHub releases](https://github.com/gitockham/ock-desktop-wallet/releases).

@@ -1,20 +1,32 @@
 exports.APP = {
-  website: 'https://ark.io',
+  website: 'https://ockham.consulting',
   transactionExpiryMinutes: 45
 }
 
 exports.NETWORKS = [
   require('./networks/mainnet.json'),
-  require('./networks/devnet.json')
+  require('./networks/devnet.json'),
+  require('./networks/ockmainnet.json'),
+  require('./networks/ockdevnet.json'),
+  require('./networks/ocktestnet.json'),
+  require('./networks/mlc.mainnet.json'),
+  require('./networks/mlc.devnet.json'),
+  require('./networks/mlc.testnet.json')
 ]
 
 exports.PEERS = {
-  'ark.mainnet': require('./peers/mainnet.json'),
-  'ark.devnet': require('./peers/devnet.json')
+  'ark.mainnet': './peers/mainnet.json',
+  'ark.devnet': './peers/devnet.json',
+  'ock.mainnet': './peers/ockmainnet.json',
+  'ock.devnet': './peers/ockdevnet.json',
+  'ock.testnet': './peers/ocktestnet.json',
+  'mlc.mainnet': require('./peers/mlc.mainnet.json'),
+  'mlc.devnet': require('./peers/mlc.devnet.json'),
+  'mlc.testnet': require('./peers/mlc.testnet.json')
 }
 
 exports.ANNOUNCEMENTS = {
-  rssUrl: 'https://blog.ark.io/feed'
+  rssUrl: 'https://laroue.org/feed'
 }
 
 exports.VENDOR_FIELD = {
@@ -22,14 +34,15 @@ exports.VENDOR_FIELD = {
 }
 
 exports.I18N = {
-  defaultLocale: 'en-US',
+  defaultLocale: 'fr-FR',
   enabledLocales: [
-    'en-US'
+    'en-US',
+    'fr-FR'
   ]
 }
 
 exports.BIP39 = {
-  defaultLanguage: 'english',
+  defaultLanguage: 'french',
   languages: [
     'chinese_simplified',
     'chinese_traditional',
@@ -64,7 +77,7 @@ exports.MARKET = {
   source: {
     baseUrl: 'https://min-api.cryptocompare.com'
   },
-  defaultCurrency: 'BTC',
+  defaultCurrency: 'EUR',
   crypto: [
     'BTC',
     'ETH',

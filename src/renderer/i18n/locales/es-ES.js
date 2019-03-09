@@ -7,6 +7,7 @@ export default {
   LANGUAGES: {
     'en-US': 'Inglés',
     'es-ES': 'Español',
+    'fr-FR': 'Francès',
     'pt-BR': 'Portugués - Brasil'
   },
 

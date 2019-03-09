@@ -1,24 +1,24 @@
-# Ark Desktop Wallet
+# Ockham Desktop Wallet
 
-![Ark Desktop Wallet](./banner.png)
+![Ockham Desktop Wallet](./banner.png)
 
-[![Build Status](https://badgen.now.sh/circleci/github/ArkEcosystem/desktop-wallet)](https://circleci.com/gh/ArkEcosystem/desktop-wallet)
-[![Latest Version](https://badgen.now.sh/github/release/ArkEcosystem/desktop-wallet)](https://github.com/ArkEcosystem/desktop-wallet/releases)
+[![Build Status](https://badgen.now.sh/circleci/github/gitockham/ock-desktop-wallet)](https://circleci.com/gh/gitockham/ock-desktop-wallet)
+[![Latest Version](https://badgen.now.sh/github/release/gitockham/ock-desktop-wallet)](https://github.com/gitockham/ock-desktop-wallet/releases)
 [![License: MIT](https://badgen.now.sh/badge/license/MIT/green)](https://opensource.org/licenses/MIT)
 
 ## Download
-[Latest Release](https://github.com/ArkEcosystem/ark-desktop/releases)
+[Latest Release](https://github.com/gitockham/ock-desktop-wallet/releases)
 
 ## Installing via Package Managers
 
 ### Arch Linux
 
-Install via [AUR](https://aur.archlinux.org/packages/ark-desktop):
+Install via [AUR](https://aur.archlinux.org/packages/ock-desktop):
 
 > Manjaro
 
 ```shell
-pamac build ark-desktop
+pamac build ock-desktop
 ```
 
 ### Mac OS X
@@ -26,24 +26,24 @@ pamac build ark-desktop
 Install via [Homebrew](https://brew.sh/):
 
 ```shell
-brew cask install ark-desktop-wallet
+brew cask install ockham-desktop-wallet
 ```
 
 ## Translations
 
-Translations are part of our [ARK Development and Security Bounty Program](https://blog.ark.io/ark-development-and-security-bounty-program-a95122d06879).
+Translations are part of our [OCKHAM Development and Security Bounty Program](https://ockham.consulting/development-and-security-bounty-program).
 
 Full translations are considered to be `Tier 3`, while grammar fixes, typos, etc. are considered to be `Tier 6`.
 
 <details><summary>Full translations should involve 5 tasks</summary>
 
  - Create a pull request for the language you are going to translate. If you have doubts about something, use English to explain them.
- - Translate the textual content of the application, using the [English language file](https://github.com/ArkEcosystem/desktop-wallet/blob/develop/src/renderer/i18n/locales/en-US.js) as the reference. To do that, a new file, with the language locale code should be created. The name of the file should be a valid [RFC 5646](https://tools.ietf.org/html/rfc5646) and should be located at `src/renderer/i18n/locales/LANGUAGE.js`. Thanks to [vue-i18n-extract](https://github.com/pixari/vue-i18n-extract), it is possible to execute `yarn i18n src/renderer/i18n/locales/LANGUAGE.js` to find suggestions of missing translations.
- - Add the language to the [English language file](https://github.com/ArkEcosystem/desktop-wallet/blob/develop/src/renderer/i18n/locales/en-US.js) at the `LANGUAGES` key.
- - Update the [date and time formats file](https://github.com/ArkEcosystem/desktop-wallet/blob/develop/src/renderer/i18n/date-time-formats.js) to include the short and long format that are used commonly by native speakers.
- - Update the [number formats file](https://github.com/ArkEcosystem/desktop-wallet/blob/develop/src/renderer/i18n/number-formats.js) to include the preferred way of displaying currencies used commonly by native speakers.
- - Add the language at the `I18N.enabledLocales` array at the [main configuration file](https://github.com/ArkEcosystem/desktop-wallet/blob/develop/config/index.js). This step is necessary to make the language available.
- - Execute the application. Go to the [development section](https://github.com/ArkEcosystem/desktop-wallet#development) to learn how to install the requirements and execute it.
+ - Translate the textual content of the application, using the [English language file](https://github.com/gitockham/ock-desktop-wallet/blob/develop/src/renderer/i18n/locales/en-US.js) as the reference. To do that, a new file, with the language locale code should be created. The name of the file should be a valid [RFC 5646](https://tools.ietf.org/html/rfc5646) and should be located at `src/renderer/i18n/locales/LANGUAGE.js`. Thanks to [vue-i18n-extract](https://github.com/pixari/vue-i18n-extract), it is possible to execute `yarn i18n src/renderer/i18n/locales/LANGUAGE.js` to find suggestions of missing translations.
+ - Add the language to the [English language file](https://github.com/gitockham/ock-desktop-wallet/blob/develop/src/renderer/i18n/locales/en-US.js) at the `LANGUAGES` key.
+ - Update the [date and time formats file](https://github.com/gitockham/ock-desktop-wallet/blob/develop/src/renderer/i18n/date-time-formats.js) to include the short and long format that are used commonly by native speakers.
+ - Update the [number formats file](https://github.com/gitockham/ock-desktop-wallet/blob/develop/src/renderer/i18n/number-formats.js) to include the preferred way of displaying currencies used commonly by native speakers.
+ - Add the language at the `I18N.enabledLocales` array at the [main configuration file](https://github.com/gitockham/ock-desktop-wallet/blob/develop/config/index.js). This step is necessary to make the language available.
+ - Execute the application. Go to the [development section](https://github.com/gitockham/ock-desktop-wallet#development) to learn how to install the requirements and execute it.
 
 </details>
 
@@ -132,8 +132,8 @@ yarn test:e2e:full
 # List what translations are missing or unused on a specific language. It could capture suggestions that are not accurate
 yarn i18n 'src/renderer/i18n/locales/LANGUAGE.js'
 
-# List what English messages are missing or unused (English is the default language)
-yarn i18n:en-US
+# List what English messages are missing or unused (French is the default language)
+yarn i18n:fr-FR
 
 # List what translations are missing or unused on every language
 yarn i18n:all
@@ -143,7 +143,7 @@ yarn i18n:all
 
 ## Security
 
-If you discover a security vulnerability within this project, please send an e-mail to security@ark.io. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this project, please send an e-mail to security@ockham.consulting. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 
@@ -152,8 +152,9 @@ If you discover a security vulnerability within this project, please send an e-m
  - [Juan A. Martín](https://github.com/j-a-m-l)
  - [Lúcio Rubens](https://github.com/luciorubeens)
  - [Mario Vega](https://github.com/mvega3)
+ - [Luc Talarico](https://github.com/gitockham)
  - [All Contributors](../../contributors)
 
 ## License
 
-[MIT](LICENSE) © [ArkEcosystem](https://ark.io)
+[MIT](LICENSE) © [OCKHAM CONSULTING INSTITUTE](https://ockham.consulting)
